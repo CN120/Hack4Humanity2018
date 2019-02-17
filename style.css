@@ -1,0 +1,82 @@
+html body {
+	font-family:Helvetica Neue;
+}
+
+html {
+	background-color:#F1F1F1;
+	padding-top:20px;
+}
+
+body{
+	width:70%;
+	background-color:white;
+	display:block;
+	margin:0 auto 0;
+	padding:20px;
+	-webkit-font-smoothing: antialiased;
+
+}
+
+header {
+	text-align:center;
+}
+
+h1{
+	line-height:1;
+}
+
+h2{
+
+}
+
+h3{
+
+}
+
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    -o-transition:.25s;
+  	-ms-transition:.25s;
+  	-moz-transition:.25s;
+  	-webkit-transition:.25s;
+    transition: 0.25s;
+    outline: none;
+}
+input[type=text]:focus {
+    border: 3px solid grey;
+    box-shadow: 0 0 10px grey;
+}
+
+/* For transforming the icon */
+.container {
+    display: inline-block;
+    cursor: pointer;
+    background-color:blue;
+    padding:5px;
+    border-radius:100px;
+    box-shadow: 0 0 20px grey;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color:white;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
